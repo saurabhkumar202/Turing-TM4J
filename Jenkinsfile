@@ -4,6 +4,7 @@ pipeline {
     stage('build') {
       steps {
         sh 'git clone https://github.com/saurabhkumar202/Turing-TM4J.git'
+        sh 'mvn clean install'
       }
     }
 
