@@ -1,0 +1,27 @@
+{
+  "name": "tm4j",
+  "version": "1.0.0",
+  "description": "Thi is readme for TM4J",
+  "main": "index.js",
+  "scripts": {
+    "test": "protractor conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saurabhkumar202/Turing-TM4J.git"
+  },
+  "keywords": [
+    "TM4J",
+    "protractor",
+    "javascript"
+  ],
+  "author": "Saurabh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saurabhkumar202/Turing-TM4J/issues"
+  },
+  "homepage": "https://github.com/saurabhkumar202/Turing-TM4J#readme",
+  "dependencies": {
+    "protractor": "^5.4.2"
+  }
+}
