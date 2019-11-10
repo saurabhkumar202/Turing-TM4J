@@ -5,6 +5,7 @@ pipeline {
       steps {
         sh 'wget https://nodejs.org/dist/v6.11.4/node-v6.11.4-linux-x64.tar.xz'
         sh 'chown -R 1000 node-v6.11.4-linux-x64.tar.xz'
+        sh 'chown -R 1000 /usr'
         sh 'tar -C /usr --strip-components 1 -xJf node-v6.11.4-linux-x64.tar.xz'
         sh 'npm install -g protractor@5.4.2'
         sh 'webdriver-manager update'
